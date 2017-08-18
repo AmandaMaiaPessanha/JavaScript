@@ -1,5 +1,5 @@
 .header-h1 {
-  margin-left: 100px;
+  margin-left: 592px;
   font-family: 'Bree Serif', serif;
 }
 .header {
@@ -7,7 +7,7 @@
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   margin-top: -58px;
-  margin-right: 358px;
+  margin-right: 800px;
 }
 .conteudo {
   width: 1047px;
@@ -16,16 +16,20 @@
 .commet-input {
   font-family: 'Open Sans', sans-serif;
   float: left;
-  margin-left: 100px;
+  margin-left: 580px;
 }
 .comments {
   font-family: 'Open Sans', sans-serif;
   float: right;
   width: 700px;
+  margin-right: -520px;
 }
 .comments p:nth-child(even) {
   background: lavender;
 }
 .comments p:nth-child(odd) {
   background: gainsboro;
+}
+.rodape {
+  height: 200px;
 }
