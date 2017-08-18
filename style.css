@@ -1,0 +1,31 @@
+.header-h1 {
+  margin-left: 100px;
+  font-family: 'Bree Serif', serif;
+}
+.header {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  margin-top: -58px;
+  margin-right: 358px;
+}
+.conteudo {
+  width: 1047px;
+  height: 200px;
+}
+.commet-input {
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  margin-left: 100px;
+}
+.comments {
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  width: 700px;
+}
+.comments p:nth-child(even) {
+  background: lavender;
+}
+.comments p:nth-child(odd) {
+  background: gainsboro;
+}
