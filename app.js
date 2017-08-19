@@ -1,9 +1,10 @@
-var main =  function () {
+var main =  function(){
   "use strict";
-
-  $(".commet-input button").on("click", function(event) {
-    $(".comments").append("<p>this is a new comment</p>");
+  $(".commet-input button").on("click", function (event){
+    var $new_comment = $("<p>"),
+      comment_text = $(".commet-input input").val();
+    $new_comment.text(comment_text);
+    $(".comments").append($new_comment);
   });
 };
-
 $(document).ready(main);
