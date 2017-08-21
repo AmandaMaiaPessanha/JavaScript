@@ -18,11 +18,15 @@
   float: left;
   margin-left: 580px;
 }
+
 .comments {
   font-family: 'Open Sans', sans-serif;
   float: right;
+  height: 168px;
   width: 700px;
   margin-right: -520px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .comments p:nth-child(even) {
   background: lavender;
