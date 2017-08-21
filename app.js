@@ -1,10 +1,14 @@
 var main =  function(){
   "use strict";
   $(".commet-input button").on("click", function (event){
-    var $new_comment = $("<p>"),
-      comment_text = $(".commet-input input").val();
-    $new_comment.text(comment_text);
-    $(".comments").append($new_comment);
+    var $new_comment;
+    if ($(".commet-input input").val() !== "") {
+      $new_comment = $("<p>").text($(".commet-input input").val());
+      $new_comment.hide();
+      $(".comments").append($new_comment);
+      $new_comment.fadeIn();
+      $(".commet-input input").val("");
+    }
   });
 
   $(".commet-input input").on("keypress", function (event){
