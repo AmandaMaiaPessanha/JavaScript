@@ -29,9 +29,17 @@
 }
 .comments p:nth-child(even) {
   background: lavender;
+  border-radius: 6px;
+  line-height: 1.6;
+  margin: 5px 5px;
+  text-indent: 10px;
 }
 .comments p:nth-child(odd) {
   background: gainsboro;
+  border-radius: 6px;
+  line-height: 1.6;
+  margin: 5px 5px;
+  text-indent: 10px;
 }
 .rodape {
   height: 200px;
